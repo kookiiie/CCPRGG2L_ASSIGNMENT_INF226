@@ -34,7 +34,7 @@ public class App {
             loseWeight(currentWeight);
 
         // if the target weight has been reached, print the code below.
-        } else if (currentWeight <= 150) {
+        } else if (currentWeight == 150) {
             System.out.println("I have reached my target weight!");
         }
         scan.close();
