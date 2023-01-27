@@ -37,7 +37,6 @@ public class App {
         } else if (currentWeight <= 150) {
             System.out.println("I have reached my target weight!");
         }
-        scan.close();
     }
 
     static int checkWeight(int weight) {
