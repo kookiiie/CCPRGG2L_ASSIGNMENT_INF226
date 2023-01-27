@@ -15,7 +15,6 @@ public class App {
         } else {
             System.out.println("Current weight must be greater than 150 lbs!");
         }
-        scan.close();
     }
 
     static void loseWeight(int currentWeight) {
